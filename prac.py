@@ -1,4 +1,3 @@
-name : str = input('What is your name? \t')
+num : int = 5
 
-print(type(name))
-print(f'Welcome dear Mr/Ms {name.title()}')
+dir(num)
