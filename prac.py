@@ -1,3 +1,7 @@
 num : int = 5
 
-dir(num)
+print(num)
+methods : list[str] = list(dir(num))
+
+for method in methods:
+    print(method)
