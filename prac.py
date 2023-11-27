@@ -1,7 +1,18 @@
-num : int = 5
+# name : str = 'Muhammad Qasim'
+# fname : str = "Muhammad Aslam"
+# education : str = "Master in Data Science"
+# age : int = 30
 
-print(num)
-methods : list[str] = list(dir(num))
+# card : str = "PIAIC Student Card\nStudent Name: " + name +\
+# "\nAge:" + str(age)+ "\n"+\
+# "Education: " + education
 
-for method in methods:
-    print(method)
+# print(card)
+
+name: str = "Ali"
+age: int = 25
+message: str = "Name: " + name +\
+"\nAge:" + str(age) +\
+"\nEligible"
+
+print(message)
